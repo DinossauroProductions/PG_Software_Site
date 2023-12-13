@@ -4,11 +4,20 @@
 */
 
 :root{
+
+    
     --bgDarkestColor:rgba(54,0,0,1);
     --bgDarkColor:rgba(108,2,2,1);
     --bgColor: rgba(163,25,25,1);
     --bgLightColor:rgba(238,114,114,1);
     --bgLightestColor:rgba(255,185,185,1);
+   
+
+    /* --bgDarkestColor:#0d7cc4;
+    --bgDarkColor:#5da7d9;
+    --bgColor: #7ab8e0;
+    --bgLightColor:#93c4e6;
+    --bgLightestColor:#a6cfea; */
 
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,14 +49,14 @@ body{
     
 }
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
 
     .Content{
         margin: 30px 5vw 0 5vw;
         width: 90vw;
     }
     
-}
+} */
 
 .Content::after { 
     content: ""; 
