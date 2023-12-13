@@ -28,19 +28,23 @@ body{
 }
 .Content{
     position: relative;
-    margin: 30px 18vw 0 18vw;
+    margin: 40px 18vw 40px 18vw;
     background-color: white;
-    width: 60vw;
-    padding: 20px;
+    width: 64vw;
+    padding: 30px;
 
     --s: 10px; /* the spread  */
+
+    display: flex;
+    flex-flow: row wrap;
     
 }
 
-@media only screen and (hover: none) and (pointer: coarse){
+@media only screen and (max-width: 768px){
 
     .Content{
         margin: 30px 5vw 0 5vw;
+        width: 90vw;
     }
     
 }
@@ -80,6 +84,7 @@ body{
     color: white;
     align-self: center;
     margin-left: 10px;
+    font-size: 120%;
 }
 
 /*
@@ -103,6 +108,29 @@ body{
     padding: 10px;
     border-radius: 8px;
     flex-basis:content;
+    transition: 0.3s;
+}
+
+.BarraBotoesDiv a:hover {
+    background-color: var(--bgLightestColor);
+    color: black;
+    font-size: 120%;
+}
+
+.Coluna-50{
+    width: 50%;
+    margin: 0;
+}
+
+.TituloArtigo{
+    font-weight: bold;
+    font-size: 230%;
+    margin:0;
+}
+.SubTituloArtigo{
+    color: rgb(0, 0, 0, 190);
+    font-size: 180%;
+    padding: 5px;
 }
 
 /* 
