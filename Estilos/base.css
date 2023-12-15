@@ -43,10 +43,14 @@ body{
     padding: 45px;
 
     --s: 10px; /* the spread  */
+    
+}
+
+.ContentFlexBox{
 
     display: flex;
     flex-flow: row wrap;
-    
+
 }
 
 /* @media only screen and (max-width: 768px){
@@ -139,26 +143,16 @@ body{
 .SubTituloArtigo{
     color: rgb(0, 0, 0, 190);
     font-size: 180%;
+    text-indent: 20px;
     padding: 5px;
 }
 
 .ConteudoArtigo{
     text-align: justify;
+    text-indent: 40px;
+    font-size: 110%;
 }
 
-.VideoContainer {
-    position: relative;
-    width: 100%;
-    height: 0;
-    padding-bottom: 56.25%;
-}
-.Video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 
 /* 
 .BarraBotoesDiv ol{
