@@ -146,6 +146,20 @@ body{
     text-indent: 20px;
     padding: 5px;
 }
+.SubTituloArtigoSemEspaço{
+    color: rgb(0, 0, 0, 190);
+    font-size: 180%;
+    text-indent: 0px;
+    padding: 5px;
+}
+
+.SubTituloImagem{
+    color: rgb(0, 0, 0, 190);
+    font-size: 100%;
+    font-style: italic;
+    text-align: center;
+
+}
 
 .ConteudoArtigo{
     text-align: justify;
